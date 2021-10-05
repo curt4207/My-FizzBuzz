@@ -1,0 +1,118 @@
+/*i modified a copy of a Style.CCS file form Coder Foundry"s youtube video and link. I decident to type it by hand to lean to type better, look up the terms that i did not know, and learn syntax.*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+img{
+    padding: 5px;
+}
+
+#results {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 
+                Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:blueviolet;
+}
+
+#results td, #results th {
+    border: 1px solid rgb(82, 231, 130);
+    padding: 8px;
+}
+
+#results tr:nth-child(even){background-color: rgb(47, 98, 207);}
+
+#results th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:rgb(16, 96, 96);
+    color: white;
+}
+
+.rev-style{
+    max-width: 700px;
+    padding: 20px 12px 10px 20px;
+    font: 18px Arial, Helvetica, sans-serif; 
+}
+
+.rev-style-heading{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.rev-style-headingB{
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+.rev-style label{
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+
+.rev-style label > span{
+    width: 200px;
+    font-weight: bold;
+    float: left;
+    padding-top: 0px;
+    padding-right: 5px;
+}
+.rev-style .tel-number-field{
+    width: 40px;
+    text-align: center;
+}
+.rev-style input.input-field,
+.rev-style .tel-number-field,
+.rev-style .textarea-field,
+.rev-style .select-field,
+.rev-style .select-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid rgba(118, 250, 77, 0.897);
+    box-shadow: 1px 1px 4px rgb(65, 7, 7);
+    -moz-box-shadow: 1px 1px 4px rgba(63, 103, 189, 0.945);
+    -webkit-box-shadow: 1px 1px 4px rgb(230, 68, 116);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+.rev-style .input-field:focus,
+.rev-style .tel-number-field:focus,
+.rev-style .textarea-field:focus,
+.rev-style .slect-field:focus{
+    border: 1px solid rgb(155, 201, 70);
+}
+.rev-style .textarea-field{
+    height: 100px;
+    width: 55%;
+}
+.rev-style input[type=submit],
+.rev-style input[type=button]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background:rgb(16, 96, 96);
+    color:black; 
+    box-shadow: 1px 1px 4px rgb(84, 81, 240);
+    -moz-box-shadow: 1px 1px 4px rgb(229, 69, 235);
+    -webkit-box-shadow: 1px 1px 4px #ddd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.rev-style input[type=submit]:hover,
+.rev-style input[type=button]:hover{
+    background-color: blue;/* is background- color the same as background then color under it?*/
+}
