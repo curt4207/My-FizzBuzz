@@ -1,4 +1,4 @@
-//Traditional Solve for Fizz Buzz using a loop . i was learning while watching Coder Foundry youtube Totorial's.
+//Traditional Solve for Fizz Buzz using a loop . i was learning while watching Coder Foundry youtube Tutorial.
 
 function FizzBuzzA(value1, value2){
     let returnValue = "";

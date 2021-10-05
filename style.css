@@ -16,7 +16,7 @@ img{
 }
 
 #results td, #results th {
-    border: 1px solid rgb(82, 231, 130);
+    border: 1px solid rgb(226, 6, 215);
     padding: 8px;
 }
 
@@ -26,7 +26,7 @@ img{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color:rgb(16, 96, 96);
+    background-color:rgb(19, 209, 209);
     color: white;
 }
 
@@ -102,9 +102,9 @@ img{
 .rev-style input[type=button]{
     border: none;
     padding: 8px 15px 8px 15px;
-    background:rgb(16, 96, 96);
+    background:rgb(24, 236, 236);/*changes botton color*/
     color:black; 
-    box-shadow: 1px 1px 4px rgb(84, 81, 240);
+    box-shadow: 1px 1px 4px rgb(38, 37, 71);
     -moz-box-shadow: 1px 1px 4px rgb(229, 69, 235);
     -webkit-box-shadow: 1px 1px 4px #ddd;
     border-radius: 3px;
@@ -114,5 +114,5 @@ img{
 
 .rev-style input[type=submit]:hover,
 .rev-style input[type=button]:hover{
-    background-color: blue;/* is background- color the same as background then color under it?*/
+    background-color: rgb(0, 255, 136);/* is background- color the same as background then color under it?-1?*/
 }
