@@ -1,4 +1,4 @@
-/*i modified a copy of a Style.CCS file form Coder Foundry"s youtube video and link. I decident to type it by hand to lean to type better, look up the terms that i did not know, and learn syntax.*/
+/*I modified a copy of a Style.CCS file form Coder Foundry"s youtube video and link. I decided to type it by hand to lean to type better, look up the terms that I did not know and learn syntax.*/
 .responsive {
     max-width: 100%;
     height: auto;
@@ -91,7 +91,7 @@ img{
 .rev-style .input-field:focus,
 .rev-style .tel-number-field:focus,
 .rev-style .textarea-field:focus,
-.rev-style .slect-field:focus{
+.rev-style .select-field:focus{
     border: 1px solid rgb(155, 201, 70);
 }
 .rev-style .textarea-field{
@@ -102,7 +102,7 @@ img{
 .rev-style input[type=button]{
     border: none;
     padding: 8px 15px 8px 15px;
-    background:rgb(24, 236, 236);/*changes botton color*/
+    background:rgb(24, 236, 236);/*changes button color*/
     color:black; 
     box-shadow: 1px 1px 4px rgb(38, 37, 71);
     -moz-box-shadow: 1px 1px 4px rgb(229, 69, 235);
