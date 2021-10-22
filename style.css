@@ -8,11 +8,10 @@ img{
 }
 
 #results {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 
-                Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    background-color:blueviolet;
+    background-color:rgb(63, 6, 196);
 }
 
 #results td, #results th {
