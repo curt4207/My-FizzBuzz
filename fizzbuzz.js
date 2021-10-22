@@ -13,7 +13,7 @@ function FizzBuzzA(value1, value2){
             returnValue += " buzz";
         }
         else {
-            returnValue += i + " ";
+            returnValue += i + " "; //if neither are TRUE print the number.  
         }
     } 
     return returnValue;
