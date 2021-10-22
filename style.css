@@ -8,24 +8,26 @@ img{
 }
 
 #results {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif, Arial, Helvetica;
     border-collapse: collapse;
     width: 100%;
-    background-color:rgb(63, 6, 196);
+    background-color:gainsboro;
 }
 
 #results td, #results th {
-    border: 1px solid rgb(226, 6, 215);
+    border: 1px solid #ddd;
     padding: 8px;
 }
 
-#results tr:nth-child(even){background-color: rgb(47, 98, 207);}
+#results tr:nth-child(even){background-color: #f2f2f2;}
+
+#results tr:hover {background-color:#ddd;}
 
 #results th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color:rgb(19, 209, 209);
+    background-color: #cc0ddd;
     color: white;
 }
 
@@ -64,22 +66,31 @@ img{
     padding-top: 0px;
     padding-right: 5px;
 }
+
+.rev-style span.required{
+    color:#cc0ddd;
+}
+
 .rev-style .tel-number-field{
     width: 40px;
     text-align: center;
 }
+
+.rev-style input.input-field, .rev-style .select-field{
+    width: 48%;
+}
+
 .rev-style input.input-field,
 .rev-style .tel-number-field,
 .rev-style .textarea-field,
-.rev-style .select-field,
 .rev-style .select-field{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border: 1px solid rgba(118, 250, 77, 0.897);
-    box-shadow: 1px 1px 4px rgb(65, 7, 7);
-    -moz-box-shadow: 1px 1px 4px rgba(63, 103, 189, 0.945);
-    -webkit-box-shadow: 1px 1px 4px rgb(230, 68, 116);
+    border: 1px solid #29cc7b;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -91,7 +102,7 @@ img{
 .rev-style .tel-number-field:focus,
 .rev-style .textarea-field:focus,
 .rev-style .select-field:focus{
-    border: 1px solid rgb(155, 201, 70);
+    border: 1px solid rgb(65, 31, 219);
 }
 .rev-style .textarea-field{
     height: 100px;
@@ -101,11 +112,11 @@ img{
 .rev-style input[type=button]{
     border: none;
     padding: 8px 15px 8px 15px;
-    background:rgb(24, 236, 236);/*changes button color*/
-    color:black; 
-    box-shadow: 1px 1px 4px rgb(38, 37, 71);
-    -moz-box-shadow: 1px 1px 4px rgb(229, 69, 235);
-    -webkit-box-shadow: 1px 1px 4px #ddd;
+    background:rgb(116, 24, 236);/*changes button color*/
+    color: #fff; 
+    box-shadow: 1px 1px 4px #dadada;
+    -moz-box-shadow: 1px 1px 4px #dadada;
+    -webkit-box-shadow: 1px 1px 4px #dadada;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -113,5 +124,6 @@ img{
 
 .rev-style input[type=submit]:hover,
 .rev-style input[type=button]:hover{
-    background-color: rgb(0, 255, 136);/* is background- color the same as background then color under it?-1?*/
+    background: rgb(16, 240, 64);
+    color: deeppink;
 }
