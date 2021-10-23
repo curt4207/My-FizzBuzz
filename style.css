@@ -31,8 +31,8 @@ img{
     color: white;
 }
 
-.rev-style{
-    max-width: 800px; /* sets the width of the whole Fizzbuzz page*/
+.rev-style{ /*sets the width of the whole FizzBuzz page*/
+    max-width: 800px; 
     padding: 20px 12px 10px 20px;
     font: 20px Arial, Helvetica, sans-serif; 
 }
