@@ -22,8 +22,8 @@ function FizzBuzzA(value1, value2){
 // Call and use the FizzBuzzA function
 function buzzIt(){
     let output="";
-    let valueOne = document.getElementById("Fizzvalue").value;//ERROR
-    let valueTwo = document.getElementById("Buzzvalue").value;//ERROR
+    let valueOne = document.getElementById("FizzValue").value;
+    let valueTwo = document.getElementById("BuzzValue").value;
     output = FizzBuzzA(valueOne, valueTwo);
     document.getElementById("results").innerHTML = output;
 }
