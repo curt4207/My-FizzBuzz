@@ -7,11 +7,11 @@ img{
     padding: 5px;
 }
 
-#results {
+#results {/* result box*/
     font-family: 'Trebuchet MS', sans-serif, Arial, Helvetica;
     border-collapse: collapse;
     width: 100%;
-    background-color:gainsboro;
+    background-color:rgb(175, 148, 218);
 }
 
 #results td, #results th {
@@ -32,9 +32,9 @@ img{
 }
 
 .rev-style{
-    max-width: 700px;
+    max-width: 800px; /* sets the width of the whole Fizzbuzz page*/
     padding: 20px 12px 10px 20px;
-    font: 18px Arial, Helvetica, sans-serif; 
+    font: 20px Arial, Helvetica, sans-serif; 
 }
 
 .rev-style-heading{
@@ -48,7 +48,7 @@ img{
 
 .rev-style-headingB{
     font-style: italic;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 4px solid rgb(16, 190, 60);/*the line under the results*/
     margin-bottom: 20px;
     font-size: 18px;
     padding-bottom: 3px;
@@ -56,7 +56,7 @@ img{
 
 .rev-style label{
     display: block;
-    margin: 0px 0px 15px 0px;
+    margin: 50px 0px 15px 0px;/* spaces the page so that the input boxes line up */
 }
 
 .rev-style label > span{
