@@ -10,18 +10,22 @@
 
 <body>
     <div class= "rev-style">
-        <h1>"How to make this fizz buzz..<strong style="color:deeppink"> FizzBuzz!"</strong></h1> 
+        <h1>"How to make this fizz buzz..<strong style="color:deeppink"> FizzBuzz!!!"</strong></h1> 
         <!--NOTE:deeppink is the FizzBuzz! Color.--> 
 
-        <div class= "rev-style-headingB"><strong>This is a program that prints a <e>number</e> from 1 to 100. If both (value1 and and value2) are multiples of each other print "FizzBuzz! "
-                If ( i ) is divisible by (value1, ) only prints "fizz", instead of the #.
-                If ( i ) is divisible by ( ,value2 ) prints "buzz" instead of the #.
+        <div class= "rev-style-headingB"><strong><ul>This is a program that prints a <e>number</e> from 1 to 100</ul>
+            <li>If both (value1 and and value2) are multiples of each other print "FizzBuzz!!! "</li> 
+                <li>If value1 is divisible by the number prints "fizz " instead of the number.</li>
+                <li>If value2 is divisible by the number prints "buzz " instead of the number.</li>
             <strong>
 
-            <label><span>Enter a Number:</span><input id="Fizzvalue" type="number" name="fizz" value="3"></label>
-            <label><span>Enter another Number:</span><input id="Buzzvalue" type="number" name="buzz" value= "5"></label>
-            <label><span></span><input type="submit" value="Will it fizz, will it Buzz. Will it FizzBuzz!"</label>
+            <label><span>Enter a number for value1:</span><input id="Fizzvalue" type="number" name="fizz" value="3"></label>
+
+            <label><span>Enter another number for value2:</span><input id="Buzzvalue" type="number" name="buzz" value= "5"></label>
+
+            <label><span></span><input type="submit" onclick="buzzIt()" value="Will it fizz? will it Buzz? Will it? FizzBuzz!!!"</label>
             <label><span>Results:</span></label><br/>
+            
             <p id="results"></p>
         </div>
     </div>
